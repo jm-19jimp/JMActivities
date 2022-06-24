@@ -1,0 +1,28 @@
+
+<html>
+<head>
+<body>
+  <center><br><br><b>Enter a word:</b> 
+  <input type="text" id="pit">
+  <input type="submit" onclick="alpha_order()" value="submit">
+<p id="jim"></p>
+  <script type="text/javascript">
+  
+  function alpha_order()
+  {
+    var string=document.getElementById("pit").value;
+    var pre=document.getElementById("jim");
+    var stringArray = string.split('').sort().join('');
+   
+    
+    console.log(string);
+    console.log(stringArray);
+    pre.innerHTML="Alphabetical Spelling Order: "+ stringArray;
+    return false;
+	}
+  </script></center> 
+<br><a href="F:\WD_Klinton\main.html" style="active"><b>Back to Main Page</b></a>
+<br><a href="MAIN"><b>Main Page</b></a>   
+</body>
+</head>
+</html>

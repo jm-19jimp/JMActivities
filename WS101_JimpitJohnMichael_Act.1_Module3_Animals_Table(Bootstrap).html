@@ -1,0 +1,76 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<title>Colspan and Rowspan</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  	<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+     <style>
+    html {
+	font-family: Monospace;
+	}
+	body {
+	background-color: #B0E0D6;
+	}
+	table {
+	border: 3px outset black;
+	border-collapse: collapse;
+	margin-right: auto;
+	margin-left: auto;
+	width: 300px;
+	height: 600px;
+	}
+	th {
+	border: 2px solid blue;
+	background-color:#000000;
+	color: #F0FFFF;
+	}
+	td {
+	border: 2px solid red;
+	background-color:#F0FFFF;
+	color: #000000;
+	}
+	tr, td, th, table{
+	border:2px solid red;
+	text-align: center;
+	}
+	h1{
+	padding: 20px;
+	text-align: center;
+	}
+	</style>
+     </head>
+   <body>
+   
+   <h1>Animals table</h1>
+   
+    <table>
+    <tr>
+    
+       <th colspan="2">Animals</th>
+    </tr>
+    <tr>
+       <th colspan="2">Hippopotamus</th>
+    </tr>
+    <tr>
+       <th rowspan="2">Horse</th>
+       <td>Mare</td>
+    </tr>
+    <tr>
+       <td>Stallion</td>
+    </tr>
+    <tr>
+       <th colspan="2">Crocodile</th>
+    </tr> 
+    <tr>
+       <th rowspan="2">Chicken</th>
+       <td>Hen</td>
+    </tr>
+    <tr>
+       <td>Rooster</td>
+     </tr>
+    </table>
+  <br><a href="MAIN"><b>Main Page</b></a>
+  </body>
+  </html>
